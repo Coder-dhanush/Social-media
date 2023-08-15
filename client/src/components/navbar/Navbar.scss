@@ -1,0 +1,28 @@
+.Navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid gray;
+
+    .container{
+        justify-content: space-between;
+        align-items: center;
+        display:flex;
+        height: 100%;
+        
+    }
+    .right-side{
+        display: flex;
+        gap:20px;
+        align-items: center;
+
+        .logout{
+            font-size: 1.6rem;
+            align-items: center;
+            text-align: center;
+            display: flex;
+        }
+    }
+}
